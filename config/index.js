@@ -7,7 +7,7 @@ const path = require('path')
 module.exports = {
   moduleName:'views',
   dev: {
-
+    env:require('./dev.env'),
     // Paths
     assetsSubDirectory: 'static',
     assetsPublicPath: '/',
